@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShikkhaGolpo.com</title>
+  <style>
+    body {
+      font-family: 'Noto Sans Bengali', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fc;
+      color: #fff;
+    }
+
+    header {
+      background-image: url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5); /* dark overlay */
+      z-index: 1;
+    }
+
+    header h1, header p {
+      z-index: 2;
+      margin: 0;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: #1565c0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+      color: #333;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #1565c0;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    .article {
+      background: white;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #eeeeee;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ShikkhaGolpo.com</h1>
+    <p>শিক্ষা, গল্প, কবিতা ও নিউজের একটি বিশ্বস্ত ঠিকানা</p>
+  </header>
+
+  <nav>
+    <a href="index.html">হোম</a>
+    <a href="golpo.html">গল্প</a>
+    <a href="kobita.html">কবিতা</a>
+    <a href="shikkha.html">শিক্ষা</a>
+  </nav>
+
+  <div class="container">
+    <h2>স্বাগতম</h2>
+    <div class="article">
+      <p>এই ওয়েবসাইটে আপনি পাবেন প্রতিদিন নতুন গল্প, কবিতা ও শিক্ষামূলক লেখা।</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 ShikkhaGolpo.com | তৈরি করেছেন আপনি ❤️
+  </footer>
+</body>
+</html>
